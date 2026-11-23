@@ -1,0 +1,25 @@
+﻿# Dependencias de Node.js
+node_modules/
+
+# Archivos generados
+dist/
+coverage/
+
+# Archivos privados
+.env
+.env.*
+!.env.example
+
+# Bases de datos locales
+*.sqlite
+*.sqlite3
+*.db
+
+# Herramientas SQLite descargadas
+SLQLITE/sqlite-tools-win-x64-3540100/
+
+# Archivos temporales
+.DS_Store
+Thumbs.db
+
+SLQLITE/*.zip
